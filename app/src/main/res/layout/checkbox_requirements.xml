@@ -4,104 +4,117 @@
     android:layout_height="wrap_content"
     android:layout_margin="4dp"
     android:layout_marginStart="0dp"
-    android:background="@drawable/bg_bot_message"
-    android:orientation="vertical"
-    android:padding="8dp">
+    android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/title"
-        android:textSize="10sp"
-        android:layout_marginBottom="8dp"
-        android:fontFamily="@font/poppins_regular"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/requirements"
-        android:textColor="@color/black" />
-
-    <androidx.appcompat.widget.AppCompatCheckBox
-        android:id="@+id/PSA_NSO"
-        android:textSize="10sp"
-        android:theme="@style/CustomTheme"
-        android:fontFamily="@font/poppins_regular"
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:text="Birth Certificate"
-        android:textColor="@color/black" />
-
-    <CheckBox
-        android:id="@+id/StudentForm"
-        style="@style/NoPaddingCheckBox"
-        android:textSize="10sp"
-        android:theme="@style/CustomTheme"
-        android:fontFamily="@font/poppins_regular"
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:text="Student Form"
-        android:textColor="@color/black" />
-
-    <CheckBox
-        android:id="@+id/TOR"
-        android:textSize="10sp"
-        android:theme="@style/CustomTheme"
-        android:fontFamily="@font/poppins_regular"
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:text="Transcript of Record (TOR)"
-        android:textColor="@color/black" />
-
-    <CheckBox
-        android:id="@+id/scholarShipForm"
-        android:textSize="10sp"
-        android:theme="@style/CustomTheme"
-        android:fontFamily="@font/poppins_regular"
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:text="Scholarship Form"
-        android:textColor="@color/black" />
-
-    <CheckBox
-        android:textSize="10sp"
-        android:id="@+id/LOR"
-        android:theme="@style/CustomTheme"
-        android:fontFamily="@font/poppins_regular"
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:layout_marginBottom="8dp"
-        android:text="Letter of Recommendation"
-        android:textColor="@color/black" />
-
+    <View
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:backgroundTint="@color/green"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/mock_circle" />
 
     <LinearLayout
+        android:background="@drawable/bg_bot_message"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/submitFormConfirm"
-            android:layout_width="0dp"
-            android:layout_height="32dp"
-            android:layout_marginEnd="2dp"
-            android:layout_weight="1"
-            android:background="@drawable/rounded_corner"
-            android:backgroundTint="@color/green"
-            android:text="Submit"
+        <TextView
+            android:id="@+id/title"
             android:textSize="10sp"
-            android:fontFamily="@font/poppins_semibold"
-            android:textColor="@color/white" />
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/requirements"
+            android:textColor="@color/black" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/submitFormCancel"
-            android:layout_width="0dp"
-            android:layout_height="32dp"
-            android:layout_marginStart="2dp"
-            android:layout_weight="1"
-            android:background="@drawable/rounded_corner"
-            android:backgroundTint="@color/red"
-            android:text="Cancel"
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/PSA_NSO"
             android:textSize="10sp"
-            android:fontFamily="@font/poppins_semibold"
-            android:textColor="@color/white" />
+            android:theme="@style/CustomTheme"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Birth Certificate"
+            android:textColor="@color/black" />
+
+        <CheckBox
+            android:id="@+id/StudentForm"
+            style="@style/NoPaddingCheckBox"
+            android:textSize="10sp"
+            android:theme="@style/CustomTheme"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Student Form"
+            android:textColor="@color/black" />
+
+        <CheckBox
+            android:id="@+id/TOR"
+            android:textSize="10sp"
+            android:theme="@style/CustomTheme"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Transcript of Record (TOR)"
+            android:textColor="@color/black" />
+
+        <CheckBox
+            android:id="@+id/scholarShipForm"
+            android:textSize="10sp"
+            android:theme="@style/CustomTheme"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Scholarship Form"
+            android:textColor="@color/black" />
+
+        <CheckBox
+            android:textSize="10sp"
+            android:id="@+id/LOR"
+            android:theme="@style/CustomTheme"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginBottom="8dp"
+            android:text="Letter of Recommendation"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/submitFormConfirm"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/green"
+                android:text="Submit"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/submitFormCancel"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/red"
+                android:text="Cancel"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
 
     </LinearLayout>
+
 
 </LinearLayout>
