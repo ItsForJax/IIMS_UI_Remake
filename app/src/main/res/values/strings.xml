@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IIMS_STUDENT_TESTIMONY_UI</string>
+    <string name="common_length_for_names">Common Length For Names</string>
+    <string name="date_time">11/11/2000 • HH:MM</string>
+    <string name="lorem_1p">Aliquam eu euismod nibh. Maecenas sed finibus nunc. Praesent scelerisque urna vel maximus tincidunt. In sit amet feugiat urna, id consectetur lorem. Etiam pharetra odio orci, et malesuada lectus aliquet at. Nulla sed lacus tristique, suscipit nisl non, sollicitudin enim. Morbi pharetra luctus risus a ultrices. Ut a pharetra libero, at finibus felis. Nullam sapien quam, faucibus vel arcu vel, bibendum sollicitudin turpis. Duis lorem metus, interdum id sapien id, convallis accumsan dolor.</string>
+    <string name="allowance_type">Hello! I\'m a primary chatbot. To which of the following allowance type is your concern about?
+        \n1.Stipend
+        \n2.Book
+        \n3.Laptop
+        \n4.Thesis
+        \n5.OJT
+        \n6.One-time attendance conference
+        \n7.One-time financial assistance?"</string>
+    <string name="were_here_t0_help">Need Assistance with PCA Programs?\nWe’re Here to Help!</string>
+    <string name="pca_artemis">PCA ARTEMIS</string>
+    <string name="requirements">Please check all the submitted requirements below. Then click submit</string>
+</resources>

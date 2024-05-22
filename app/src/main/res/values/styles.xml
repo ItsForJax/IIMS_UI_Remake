@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="NoPaddingCheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="CustomTheme" parent="Theme.MaterialComponents.Light">
+
+        <!-- Customize colors -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="colorAccent">@color/green</item>
+
+        <!-- Customize other attributes -->
+
+    </style>
+
+</resources>

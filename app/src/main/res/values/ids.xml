@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="PSA_NSO" type="id" />
+    <item name="StudentForm" type="id" />
+    <item name="TOR" type="id" />
+    <item name="scholarShipForm" type="id" />
+    <item name="LOR" type="id" />
+    <item name="submitFormConfirm" type="id" />
+    <item name="submitFormCancel" type="id" />
+</resources>
